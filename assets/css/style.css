@@ -13,7 +13,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    color: #4B0082;
+    color: #283048;
     font-weight: 700;
 }
 
@@ -65,14 +65,14 @@ img {
     align-items: center;
     justify-content: center;
     font-size: 32px;
-    background-color: #4B0082;
+    background-color: #283048;
     color: white;
     margin: auto;
 }
 
 /* NAVBAR */
 .navbar {
-    background-color: #4B0082;
+    background-color: #283048;
 }
 
 .navbar .nav-link {
@@ -92,7 +92,7 @@ img {
         min-height: 100vh;
         width: var(--sidbar-width);
        
-       border-right: #4B0082;
+       border-right: #6C5B7B;
     }
 
     
@@ -110,7 +110,7 @@ img {
 }
 
 .btn-brand {
-    background-color: #4B0082;
+    background-color: #283048;
     border-color: var(--color-brand);
     color: white;
 }
@@ -125,19 +125,19 @@ img {
 .link-custom {
     font-weight: 700;
     position: relative;
-    color:#4B0082 ;
+    color:#283048 ;
     padding: 5px;
     font-size: larger;
 }
 span{
-    color: #4B0082;
+    color: #283048;
 }
 
 .link-custom::after {
     content: "";
     width: 0%;
     height: 2px;
-    background-color:#4B0082 ;
+    background-color:#283048 ;
     position: absolute;
     left: 0;
     top: 110%;
@@ -151,6 +151,9 @@ span{
 /* CARD */
 .card-custom .card-custom-image {
     overflow: hidden;
+    width: 100%;
+    height: 350px;
+
 }
 
 .card-custom .card-custom-image img {
